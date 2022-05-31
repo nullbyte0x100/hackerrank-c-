@@ -5,7 +5,7 @@ int main(){
     char *descp;
     strcpy(name,"Trevor");
     if (descp==NULL){
-        fprintf("Error, unable to allocate memeory");
+        fprintf("Error, unable to allocate memory");
 
     }else{
         strcpy(descp,"That is my name");
