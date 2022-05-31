@@ -3,18 +3,14 @@
 #include<math.h>
 bool narcissistic(int num)
 {
-    int sum=0;
-    while (num>0){
-        int mod=num%10;
-        int ans=pow(mod,3);
-        sum+=ans;
-        num/=10;
-    }
-    if (sum==num){
-        return true;
-    }else{
-        return false;
-    }
+    int p=log10(num)+1;
+    int n=num;
+    do{
+        num-=pow(n%10,p);
+
+    }while (n/=10);
+    return !num;
+    
 }
 int main(){
     printf("%d\n",narcissistic(153));
