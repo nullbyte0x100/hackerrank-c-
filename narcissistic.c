@@ -1,6 +1,12 @@
 #include<stdio.h>
 #include<stdbool.h>
-bool narcissistic(int num)
+int narcissistic(int num)
 {
-    return false;
+    int m;
+    int sum=0;
+    while (num>0){
+        m=n/10;
+        sum+=m;
+        
+    }
 }
