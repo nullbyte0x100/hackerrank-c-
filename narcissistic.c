@@ -5,8 +5,13 @@ int narcissistic(int num)
     int m;
     int sum=0;
     while (num>0){
-        m=n/10;
+        m=num%10;
         sum+=m;
-        
+        num/=10;
+
     }
+    return sum;
+}
+int main(){
+    printf("The sum is %d",narcissistic(10564));
 }

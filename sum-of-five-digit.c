@@ -8,6 +8,6 @@ int main(){
 	while (n>0){
 		m=n%10;
 		sum+=m;
-		n?<F12
+		n/=10;
 	return 0;
 }
