@@ -1,2 +1,6 @@
 #include<stdio.h>
-#in
+#include<stdbool.h>
+bool narcissistic(int num)
+{
+    return false;
+}
