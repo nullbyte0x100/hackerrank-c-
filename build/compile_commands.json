@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/trevor/Desktop/hackerrank-c++/build",
+  "command": "/usr/bin/gcc -g -std=gnu99 -o CMakeFiles/hackerrank-c++.dir/bitwise.c.o -c /home/trevor/Desktop/hackerrank-c++/bitwise.c",
+  "file": "/home/trevor/Desktop/hackerrank-c++/bitwise.c"
+}
+]
